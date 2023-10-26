@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Estilo2.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/city-solid-24.png">
+    <script src="js/js.js"></script>
+    <script src="https://kit.fontawesome.com/edceb985cf.js" crossorigin="anonymous"></script>
+    <title>Registro de Usuario</title>
+</head>
+<body>
+
+  <div class="navbar">
+    <nav>
+      <button class="menu-vh" onclick="toggleMenu()">Menu</button>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Preguntas.html">Preguntas sobre BA</a></li>
+        <li><a href="#">Temas</a></li>
+        <li><a href="#">Destacados BA</a></li>
+        <li><a href="#">Guias Locales</a></li>
+        <li><a href="Registro.html">Registro</a></li>
+      </ul>
+    </nav>
+  </div>
+
+
+    <div class="container">
+        <h2>Formulario de Registro de Usuario</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre">
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email">
+
+      <label for="contrasena">Contraseña:</label><br>
+      <input type="password" id="contrasena" name="contrasena"><br>
+
+      <label for="pais">País:</label>
+      <select id="pais" name="pais">
+        <option value="seleccionar">Seleccionar</option>
+        <option value="usa">Estados Unidos</option>
+        <option value="mexico">México</option>
+        <option value="espana">España</option>
+      </select>
+
+      <input type="submit" value="Registrarse">
+    </form>
+
+
+
+    </div>
+    <footer>
+      <div class="contenedor">  
+        <h2 class="titulo-seccion">© 2023 VisiteBA</h2>
+      </div>
+      <div class="redes-sociales">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+      <div class="contenedor">
+        <p class="copy">VisiteBA - Derechos Reservados</p>
+      </div>
+    </footer>
+
+   
+</body>
+</html>
